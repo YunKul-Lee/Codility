@@ -3,3 +3,5 @@
 /workspace.xml
 /out
 *.class
+.idea/**/*.xml
+out/**/*.class
