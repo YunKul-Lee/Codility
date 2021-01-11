@@ -41,8 +41,6 @@ public class PermMissingElem {
         }
 
         // 전체 배열합 - A배열 합 == 누락된 수
-        int missingElement = (int)(sumTotal - sumA);
-
-        return missingElement;
+        return (int)(sumTotal - sumA);
     }
 }
