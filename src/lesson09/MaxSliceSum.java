@@ -16,14 +16,4 @@ public class MaxSliceSum {
 
         return maxSliceSum;
     }
-
-    public static void main(String[] args) {
-//        int[] A = {3,2,-6,4,0};
-        int[] A = {-2,1};
-
-        MaxSliceSum mss = new MaxSliceSum();
-
-        System.out.println(">>>>>>>>>>>>>>");
-        System.out.println(mss.solution(A));
-    }
 }
