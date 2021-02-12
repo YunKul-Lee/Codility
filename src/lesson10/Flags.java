@@ -8,7 +8,6 @@ public class Flags {
     public int solution(int[] A) {
         if(A.length < 3) return 0;
 
-        int peekCount = 0;
         List<Integer> peekList = new ArrayList<>();
 
         // find peek idx
@@ -18,12 +17,12 @@ public class Flags {
             }
         }
 
-        // TODO :: count
+
         if(peekList.size() < 2) return peekList.size();
 
+        // TODO :: count
 
-
-        return peekCount;
+        return peekList.size();
     }
 
     public static void main(String[] args) {
